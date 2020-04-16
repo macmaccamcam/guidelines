@@ -8,6 +8,8 @@ The guidelines should not be replicated across repositories to grantee consisten
 The following link to the contribution guidelines of the FreeProving project in the `CONTRIBUTING.md` file of all repositories that are part of the FreeProving project.
 
 ```markdown
+# Contributing
+
 See the [contributing guidelines][] of the FreeProving project.
 
 [contributing guidelines]:
@@ -20,6 +22,8 @@ See the [contributing guidelines][] of the FreeProving project.
 The following link to our Code of Conduct should be included in the `CODE_OF_CONDUCT.md` file of all repositories that are part of the FreeProving project.
 
 ```markdown
+# Code of Conduct
+
 The Free Proving project and everyone participating in it is governed by our [Code of Conduct][CODE_OF_CONDUCT].
 By participating, you are expected to uphold this code.
 
