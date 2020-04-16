@@ -47,7 +47,7 @@ Before contributing to the FreeProving project, you have to know which repositor
 The following is a list of the most important repositories and an explanation of their role in the FreeProving project.
 
  - The [free-compiler][] repository hosts the Free Compiler.
-   The Free Compiler is our compiler for the translation of non-strict languages (e.g. Haskell) with effects to strict languages (e.g. Cop) using free monads.
+   The Free Compiler is our compiler for the translation of non-strict languages (e.g., Haskell) with effects to strict languages (e.g., Coq) using free monads.
  - [haskell-src-transformations][] contains a prototypical pattern-matching compiler library that is used by the Free Compiler to transform Haskell programs with pattern matching on the left-hand side of function declarations into function declaarations with explicit pattern matching using `case` expressions.
  - [language-coq][] is a Haskell package that provides a Coq AST and pretty-printer.
    This package is used by the Coq backend of the Free Compiler.
