@@ -58,6 +58,10 @@ Additional bash scripts whose usage is recommended by the contributing guideline
 
 ## License
 
-This repository includes a template for the The 3-Clause BSD License that is used by most repositories of the FreeProving project.
+This repository includes a [template for the The 3-Clause BSD License][guidelines/LICENSE] that is used by most repositories of the FreeProving project.
 The copyright holders of the individual repositories may differ.
 Some repositories may choose a different license if necessary.
+
+[guidelines/LICENSE]:
+  https://github.com/FreeProving/guidelines/blob/master/LICENSE
+  "FreeProving Guidelines — LICENSE file template"

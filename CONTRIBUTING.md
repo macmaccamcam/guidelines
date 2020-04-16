@@ -1259,7 +1259,7 @@ See the [LICENSE][guidelines/LICENSE] file of the corresponding repository for d
   https://github.com/FreeProving/guidelines/issues
   "FreeProving Guidelines — Issues"
 [guidelines/LICENSE]:
-  https://github.com/FreeProving/free-compiler/blob/master/LICENSE.md
+  https://github.com/FreeProving/guidelines/blob/master/LICENSE
   "FreeProving Guidelines — LICENSE file template"
 [guidelines/pull-requests]:
   https://github.com/FreeProving/guidelines/pulls
