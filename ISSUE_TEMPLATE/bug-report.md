@@ -32,8 +32,8 @@ about: Create a report to help us improve
 ### Versions
 
 <!--
-  Please include the exact version of the Free Compiler you are using.
-  You can get this information from copy and pasting the output of `freec --version` from the command line.
+  Please include the hash of the Git commit of this repository you are using.
+  You can get this information from running `git rev-parse HEAD` on the command line.
   Also, please include the versions of GHC, Cabal and Coq as well as the name and version of the operating system (OS) you are running.
 -->
 
