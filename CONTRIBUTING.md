@@ -1178,15 +1178,15 @@ See our [Code of Conduct][guidelines/CODE_OF_CONDUCT] for more information.
 ### License
 
 The FreeProving project is an open source project.
-The source code, associated documentation, configuration, toolchain and everything else you find in most repositories of the FreeProving project is licensed under The 3-Clause BSD License.
+The source code, associated documentation, configuration, toolchain and everything else you in the repositories of the FreeProving project is licensed under open source licenses such as [The 3-Clause BSD License][licenses/3-Clause-BSD] or [The MIT License][licenses/MIT].
 By contributing to the FreeProving project, you agree that your contributions will be licensed under the same license.
 
-This includes that your contributions can be
+In case of most open source licenses, this includes that your contributions can be
 
  - modified and distributed almost arbitrarily and
  - used royalty free for private or commercial purposes
 
-by anyone provided that the requirements of the license regarding the attribution of the copyright holders are met.  
+by anyone provided that the requirements of the respective license regarding for example the attribution of the copyright holders are met.  
 See the [LICENSE][guidelines/LICENSE] file of the corresponding repository for details.
 
 [free-compiler]:
@@ -1276,6 +1276,13 @@ See the [LICENSE][guidelines/LICENSE] file of the corresponding repository for d
 [language-coq]:
   https://github.com/FreeProving/language-coq
   "language-coq on GitHub"
+
+[licenses/3-Clause-BSD]:
+  https://opensource.org/licenses/BSD-3-Clause
+  "The 3-Clause BSD License"
+[licenses/MIT]:
+  https://opensource.org/licenses/MIT
+  "The MIT License"
 
 [Maintainers/just95]:
   https://github.com/just95
