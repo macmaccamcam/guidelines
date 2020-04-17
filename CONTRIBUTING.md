@@ -361,7 +361,7 @@ If you make changes to the code, you should run the unit tests to make sure that
 One option is to run the unit tests directly using Cabal via the following command.
 
 ```bash
-cabal new-run unit-tests -- [options...]
+cabal new-run tests -- [options...]
 ```
 
 However, we recommend using the `./tool/test.sh` script for running unit tests during development instead which passes some handy default arguments to Cabal and the test suite.
