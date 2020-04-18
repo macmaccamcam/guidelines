@@ -1253,7 +1253,7 @@ See the [LICENSE][guidelines/LICENSE] file of the corresponding repository for d
   https://github.com/FreeProving/guidelines
   "FreeProving Guidelines on GitHub"
 [guidelines/CODE_OF_CONDUCT]:
-  https://github.com/FreeProving/free-compiler/blob/master/CODE_OF_CONDUCT.md
+  https://github.com/FreeProving/guidelines/blob/master/CODE_OF_CONDUCT.md
   "FreeProving Guidelines — Code of Conduct"
 [guidelines/issues]:
   https://github.com/FreeProving/guidelines/issues
