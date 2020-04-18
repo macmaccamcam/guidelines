@@ -1212,7 +1212,7 @@ See the [LICENSE][guidelines/LICENSE] file of the corresponding repository for d
   https://github.com/search?q=is%3Aopen+is%3Apr+user%3AFreeProving+sort%3Acomments-desc
   "Free Compiler — Pull Requests"
 [FreeProving/pull-requests/submit]:
-  https://github.com/FreeProving/guidelines/blob/master/doc/submit-pull-request.md
+  https://github.com/FreeProving/guidelines/blob/master/doc/SubmitPullRequest.md
   "Free Compiler — Pull Requests"
 
 [free-proving-code]:
