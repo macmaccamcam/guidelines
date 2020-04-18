@@ -1229,7 +1229,7 @@ See the [LICENSE][guidelines/LICENSE] file of the corresponding repository for d
   https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_code_core_autocrlf_code
   "core.autocrlf — Git Configuration"
 [Git/Tutorial]:
-  https://git-scm.com/
+  https://git-scm.com/docs/gittutorial
   "Git — Tutorial"
 
 [GitCommit]:
