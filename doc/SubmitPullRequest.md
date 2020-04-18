@@ -11,7 +11,7 @@ Without your help, the FreeProving project would not be possible.
  - [free-compiler][]
  - [free-proving-code][]
  - [haskell-src-transformations][]
- - [language-cop][]
+ - [language-coq][]
 
 See also our [contributing guidelines][guidelines/CONTRIBUTING] for more information about submitting pull requests and our pull request review and acceptance procedure.
 
@@ -34,6 +34,6 @@ See also our [contributing guidelines][guidelines/CONTRIBUTING] for more informa
   https://github.com/FreeProving/haskell-src-transformations/pulls
   "haskell-src-transformations — Pull Requests"
 
-[language-cop]:
-  https://github.com/FreeProving/language-cop/pulls
-  "language-cop — Pull Requests"
+[language-coq]:
+  https://github.com/FreeProving/language-coq/pulls
+  "language-coq — Pull Requests"
