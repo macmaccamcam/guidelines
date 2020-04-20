@@ -659,31 +659,48 @@ The following is a list of additional guidelines that are not yet covered by the
 
  - **Separate imports of internal and external modules**
 
-   The import declarations for modules from other packages should precede all imports of modules from this repository.
-   The two blocks of import declarations are separated by a blank line.
+    + The import declarations for modules from other packages should precede all imports of modules from this repository.
+      The two blocks of import declarations are separated by a blank line.
 
-   ```haskell
-   import           Control.Monad
-   import           Data.List
+      ```haskell
+      import           Control.Monad
+      import           Data.List
 
-   import           FreeC.Environment
-   ```
+      import           FreeC.Environment
+      ```
+
+    + If you are hiding imports from the `Prelude` module, separate the corresponding `import` declaration from all other imports by a blank line.
+      Sort the explicit import of the `Prelude` before all others.
+
+      ```haskell
+      import           Prelude                 hiding ( fail )
+
+      import           Control.Monad.Fail             ( MonadFail(..) )
+      import           Control.Monad.State            ( MonadState(..) )
+      ```
 
  - **Sort imports alphabetically**
 
-   Within the individual blocks of import declarations, the imports are sorted alphabetically by the name of the imported module.
+    + Within the individual blocks of import declarations, the imports are sorted alphabetically by the name of the imported module.
 
-   ```haskell
-   import           Control.Monad
-   import           Data.List
-   ```
+      ```haskell
+      import           Control.Monad
+      import           Data.List
+      ```
 
-   If a module is imported qualified and unqualified, the unqualified import goes first.
+    + If a module is imported qualified and unqualified, the unqualified import goes first.
 
-   ```haskell
-   import           Data.Set                       ( Set )
-   import qualified Data.Set                      as Set
-   ```
+      ```haskell
+      import           Data.Set                       ( Set )
+      import qualified Data.Set                      as Set
+      ```
+
+    + If the name of a module is prefixed with the name of another imported module, sort the module with the shorter name first.
+
+      ```haskell
+      import           Data.Set                       ( Set )
+      import           Data.Set.Ordered               ( OSet )
+      ```
 
  - **Use qualified imports**
 
