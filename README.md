@@ -1,11 +1,11 @@
 # FreeProving Guidelines
 
 This repository contains common guidelines that govern all repositories that are part of the FreeProving project.
-The guidelines should not be replicated across repositories to grantee consistency and ease maintainability.
+The guidelines should not be replicated across repositories to guarantee consistency and ease maintainability.
 
 ## Contributing Guidelines
 
-The following link to the contribution guidelines of the FreeProving project in the `CONTRIBUTING.md` file of all repositories that are part of the FreeProving project.
+The following link to the contributing guidelines of the FreeProving project should be included in the `CONTRIBUTING.md` file of all repositories that are part of the FreeProving project.
 
 ```markdown
 # Contributing
