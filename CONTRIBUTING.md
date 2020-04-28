@@ -12,25 +12,26 @@ If you have questions or want to propose changes to this document, feel free to 
 ## Table of Contents
 
  1. [Code of Conduct](#code-of-conduct)
- 2. [How Can I Contribute?](#how-can-i-contribute)
+ 2. [What Should I Know Before I Get Started?](#what-should-i-know-before-i-get-started)
+ 3. [How Can I Contribute?](#how-can-i-contribute)
     - [Reporting Bugs](#reporting-bugs)
     - [Suggesting Enhancements](#suggesting-enhancements)
     - [Contributing Code](#contributing-code)
- 3. [Additional Software](#additional-software)
- 4. [Directory Structure](#directory-structure)
- 5. [Testing](#testing)
+ 4. [Additional Software](#additional-software)
+ 5. [Directory Structure](#directory-structure)
+ 6. [Testing](#testing)
     - [Running Unit Tests](#running-unit-tests)
     - [Writing Unit Tests](#writing-unit-tests)
     - [The CI Pipeline](#the-ci-pipeline)
     - [Running The Pipeline Locally](#running-the-pipeline-locally)
- 6. [Styleguides](#styleguides)
+ 7. [Styleguides](#styleguides)
     - [Languages without Styleguide](#languages-without-styleguide)
     - [General Guidelines](#general-guidelines)
     - [Git Commit Messages](#git-commit-messages)
     - [Haskell Styleguide](#haskell-styleguide)
     - [Haddock Styleguide](#haddock-styleguide)
     - [Markdown Styleguide](#markdown-styleguide)
- 7. [Legal Information](#leagal-information)
+ 8. [Legal Information](#leagal-information)
     - [Privacy](#privacy)
     - [License](#license)
 
@@ -40,7 +41,7 @@ The Free Proving project and everyone participating in it is governed by our [Co
 By participating, you are expected to uphold this code.
 Please report unacceptable behavior to the project maintainers responsible for enforcement at [sad@informatik.uni-kiel.de](mailto:sad@informatik.uni-kiel.de).
 
-## What should I know before I get started?
+## What Should I Know Before I Get Started?
 
 The FreeProving project is made up of [multiple repositories][GitHub] which share these common contribution guidelines.
 Before contributing to the FreeProving project, you have to know which repository you actually what to contribute to.
@@ -52,7 +53,7 @@ The following is a list of the most important repositories and an explanation of
  - [language-coq][] is a Haskell package that provides a Coq AST and pretty-printer.
    This package is used by the Coq backend of the Free Compiler.
    The AST and pretty-printer has originally been developed as part of the [hs-to-coq][] compiler.
- - [free-proving-code][] is a library for modeling effectual programs in Coq in order to prove properties about these programs.
+ - [free-proving-code][] is a library for modeling effectful programs in Coq in order to prove properties about these programs.
    Even thought the Free Compiler does not use this library directly, the model applied by the Free Compiler is based on the work that can be found in this repository.
 
 This document aims to be as general as possible.
