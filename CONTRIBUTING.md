@@ -243,7 +243,7 @@ We recommend installing the following tools if you want to contribute Haskell co
 Both of these tools are used to make sure that we are using a consistent code style throughout the project and are described in more detail in the [Haskell Styleguide](#haskell-styleguide) below.
 
  - [Brittany][software/Brittany], 0.12.1.1
- - [HLint][software/HLint], version 2.2.11
+ - [HLint][software/HLint], version 3.1.1
 
 The versions mentioned above are the versions used by our [CI pipelines](#the-ci-pipeline).
 Both tools must be installed in order to [run the CI pipeline locally](#running-the-pipeline-locally).
