@@ -1211,7 +1211,7 @@ See the [LICENSE][guidelines/LICENSE] file of the corresponding repository for d
   https://github.com/FreeProving/free-compiler
   "Free Compiler on GitHub"
 [free-compiler/haddock/tests]:
-  https://freeproving.github.io/free-compiler/docs/master/free-compiler/unit-tests/
+  https://freeproving.github.io/free-compiler/docs/master/freec-unit-tests/
   "Free Compiler Test Suite — Haddock Documentation"
 
 [FreeProving/issues]:
