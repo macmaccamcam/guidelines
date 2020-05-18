@@ -49,9 +49,9 @@ The following is a list of the most important repositories and an explanation of
 
  - The [free-compiler][] repository hosts the Free Compiler.
    The Free Compiler is our compiler for the translation of non-strict languages (e.g., Haskell) with effects to strict languages (e.g., Coq) using free monads.
- - [haskell-src-transformations][] contains a prototypical pattern-matching compiler library that is used by the Free Compiler to transform Haskell programs with pattern matching on the left-hand side of function declarations into function declaarations with explicit pattern matching using `case` expressions.
+ - [haskell-src-transformations][] contains a prototypical pattern-matching compiler library that is used by the Free Compiler to transform Haskell programs with pattern matching on the left-hand side of function declarations into function declarations with explicit pattern matching using `case` expressions.
  - [language-coq][] is a Haskell package that provides a Coq AST and pretty-printer.
-   This package is used by the Coq backend of the Free Compiler.
+   This package is used by the Coq back end of the Free Compiler.
    The AST and pretty-printer has originally been developed as part of the [hs-to-coq][] compiler.
  - [free-proving-code][] is a library for modeling effectful programs in Coq in order to prove properties about these programs.
    Even thought the Free Compiler does not use this library directly, the model applied by the Free Compiler is based on the work that can be found in this repository.
@@ -282,7 +282,7 @@ Repositories that deviate from these guidelines, contain additional top-level di
  - `./example`
 
    This directory contains example configurations or inputs for the software maintained in the repository.
-   The examples should help users to get started with the software and demonstrate features aas well as limitations.
+   The examples should help users to get started with the software and demonstrate features as well as limitations.
    In case of the Free Compiler there are Haskell modules that can (or cannot) be compiled for example.
    More details about the examples and how to check out the examples should be provided in the repository's README.
 
