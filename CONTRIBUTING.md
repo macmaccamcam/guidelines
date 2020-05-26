@@ -554,6 +554,52 @@ The following general guidelines apply in every language if not noted otherwise 
    There should be a line ending character sequence (LF or CRLF on Windows) at the end of every source file if permitted by the file format.
    Without trailing newlines commands such as `cat` behave unexpectedly.
 
+ - **Avoid redundant newlines**
+
+   It is good practice to insert blank lines to group related code.
+   For example, you should **DO** the following.
+
+   ```bash
+   # This is one group of code.
+   foo
+   bar
+
+   # This is another group of code.
+   # It is separated from the previous group by a blank line.
+   baz
+   qux
+   ```
+
+   However, you should not use multiple consecutive newline characters for such purposes.
+   For example, you should not do the following.
+
+   ```bash
+   foo # This is one group of code.
+
+   bar # This is another group of code which is slightly related to `foo`.
+
+
+   baz # This is a group of code which is neither related to `foo` nor `bar`.
+   ```
+
+   Larger groups of code should be set apart using comments like the following.
+
+   ```bash
+   ###########################################################################
+   # Some Heading for `foo` and `bar`                                        #
+   ###########################################################################
+
+   foo # This is one group of code.
+
+   bar # This is another group of code which is slightly related to `foo`.
+
+   ###########################################################################
+   # Some Heading for `baz`                                                  #
+   ###########################################################################
+
+   baz # This is a group of code which is neither related to `foo` nor `bar`.
+   ```
+
  - **Wrap lines after 80 characters**
 
    Long lines of text and source code are difficult to scan for the human eye and thus should be avoided.
@@ -810,6 +856,23 @@ The following is a list of additional guidelines that are not yet covered by the
      x `foo` y  -- Custom function 'foo' in infix notation.
      xs :+: ys  -- Third-party operator ':+:' in infix notation.
      ```
+
+ - **Grouping source code**
+
+   The code in a module can often be further divided into groups of declarations with a similar intent.
+   For example, a module that defines a data type often contains the actual data type definition, smart constructors, selectors, type class instances and so on.
+   Include comments of the following format to set such groups of code apart.
+
+   ```haskell
+   -------------------------------------------------------------------------------
+   -- Heading                                                                   --
+   -------------------------------------------------------------------------------
+   ```
+
+   The comment contains a heading (such as "Smart Constructors") that concisely summarizes the intent of the code below.
+   Before and after the comment with the heading, there should be a comment that contains 79 `-` characters.
+   If the comment does not start in the first column of the source file, there may be fewer dashes to satisfy the 80 character limit per line.
+   There are two trailing dashes at the end of the heading comment which align with the last two dashes of the other two comments.
 
 #### Brittany
 
