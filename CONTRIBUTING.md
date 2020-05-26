@@ -537,6 +537,23 @@ The following general guidelines apply in every language if not noted otherwise 
    git config --global core.autocrlf true
    ```
 
+ - **Avoid trailing whitespace**
+
+   There should be no redundant trailing whitespace characters at the end of a line.
+
+   In some formats (e.g., Markdown), trailing whitespace characters do have a special meaning.
+   In such cases it is okay to include the trailing whitespace.
+
+   ```markdown
+   There are two spaces at the end of this line.  
+   The two spaces at the end of the previous line cause a line break before this sentence in Markdown.
+   ```
+
+ - **Include newline at end of file**
+
+   There should be a line ending character sequence (LF or CRLF on Windows) at the end of every source file if permitted by the file format.
+   Without trailing newlines commands such as `cat` behave unexpectedly.
+
  - **Wrap lines after 80 characters**
 
    Long lines of text and source code are difficult to scan for the human eye and thus should be avoided.
