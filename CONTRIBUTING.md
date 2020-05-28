@@ -136,7 +136,7 @@ The following instructions guide you through the creation of a pull request and 
        In a forked repository, you can push to the master branch directly.
        Consider enabling GitHub actions on the Actions tab of your fork of the repository to run the CI pipeline before you create a pull request.
 
-     - Members of the FreeProving project do don't have to fork repositories they want to contribute to.
+     - Members of the FreeProving project don't have to fork repositories they want to contribute to.
        In the main repository pushing to the master branch is prohibited.
        All development takes place in so called *feature branches*.
        If you are working on a specific issue `#N`, create a branch `issue-N` for all changes related to that issue.
@@ -577,6 +577,7 @@ The following general guidelines apply in every language if not noted otherwise 
    foo # This is one group of code.
 
    bar # This is another group of code which is slightly related to `foo`.
+   ```
 
 
    baz # This is a group of code which is neither related to `foo` nor `bar`.
